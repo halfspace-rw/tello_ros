@@ -11,15 +11,15 @@
 
 Add transformations.py v2018.9.5 to your Python environment.
 
-#### Install Gazebo v9
+#### Install Gazebo Classic (Gazebo 11)
 
-    sudo apt install gazebo11 libgazebo11 libgazebo11-dev
+    sudo apt install gazebo libgazebo11 libgazebo-dev
     
 Run `gazebo` on the command line, fix any problems before continuing.
 
 #### Additional ROS packages
 
-    sudo apt install ros-foxy-gazebo-ros-pkgs ros-foxy-cv-bridge
+    sudo apt install ros-humble-gazebo-ros-pkgs ros-humble-cv-bridge
 
 #### Run a teleop simulation
 
